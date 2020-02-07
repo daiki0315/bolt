@@ -163,6 +163,7 @@ body {
   margin-top: 90px;
   padding: 0 180px;
   display: flex;
+  align-items: flex-start;
 }
 
 .works__text {
@@ -202,6 +203,7 @@ body {
 .graph__title {
   font-size: 16px;
   margin-top: 10px;
+  color: #fff;
 }
 
 
