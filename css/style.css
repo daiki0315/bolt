@@ -347,15 +347,17 @@ a {
   background-color: #fff;
   cursor: pointer;
 }
+@media screen and (max-width:1199px) {
+  .navigation__icon {
+    width: 25%;
+  }
+}
 @media screen and (max-width:767px) {
   .navigation__wrapper {
     padding: 50px 0;
   }
   .navigation__inner {
     padding: 0;
-  }
-  .navigation__icon {
-    width: 25%;
   }
   .navigation__content {
     padding: 15px;
